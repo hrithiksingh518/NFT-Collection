@@ -37,7 +37,7 @@ function getTotalSupply() {
 
 // Mint a few NFTs
 mintNFT("Hrithik", "Ajay", 22, "I am a student.");
-mintNFT("Saurav", "Sangam", 22, "I am a beggar.");
+mintNFT("Saurav", "Sangam", 22, "I am a professor.");
 mintNFT("Sangam", "Saurav", 22, "I am a teacher.");
 
 // List all the NFTs
