@@ -1,16 +1,11 @@
-MyToken Contract
+**Overview
+This simple JavaScript program mints NFTs by storing user metadata in an array. It includes functions to mint NFTs, list them, and display the total supply.
 
-Basic ERC-20 token with minting and burning functionality.
-Total supply and individual balances tracked.
-MIT licensed.
-Usage:
-
-Deploy to a compatible Ethereum network.
-Mint tokens.
-Transfer (implement transfer function).
-Burn tokens.
-Considerations:
-
-Security: Audit for vulnerabilities.
-Token economics: Consider inflation, deflation, staking.
-ERC-20 compliance: Implement additional functions.
+Functions
+mintNFT(username, f_username, user_age, profession): Mints a new NFT with the given metadata and adds it to the collection.
+listNFTs(): Displays all minted NFTs and their metadata.
+getTotalSupply(): Returns the total number of NFTs minted.
+Usage
+Call mintNFT() to create NFTs.
+Use listNFTs() to display all NFTs.
+Check total supply with getTotalSupply().**
